@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* background gif */
+body {
+  background: 
+    #000 url("images/ETHFED.gif");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  font-family: "Overpass", serif;
+  min-height: 300vh;
+  display: inline;
+  justify-content: center;
+}
+
+main {
+  text-align: center;
+  margin: 30px 50px 20px 50px;
+}
+
+
+main h1 {
+  color: #000000;
+  font-size: 2rem;
+  text-shadow: 2px 2px 5px #999999;
+  margin: 1em 0 2em 0;
+  /* font gradient */
+background: #000000;
+background: radial-gradient(ellipse farthest-corner at center center, #000000 0%, #636662 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
+
+
+
+main p {
+  color: #000000;
+  font-size: 1rem;
+  text-shadow: 2px 2px 5px #999999;
+  margin: 1em 0 2em 0;
+  /* font gradient */
+background: #000000;
+background: radial-gradient(ellipse farthest-corner at center center, #000000 0%, #636662 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+
+
+/* link style */
+
+}
+/* unvisited link */
+a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+
+}
+
+/* mouse over link */
+a:hover {
+  color: lightgrey;
+}
+
+/* selected link */
+a:active {
+  color: green;
+}
+
+
+
+
+/* dropshadow */
+img {
+  -webkit-filter: drop-shadow(5px 5px 5px #999999);
+  filter: drop-shadow(5px 5px 5px #999999);
+  
+    
+  
+}
